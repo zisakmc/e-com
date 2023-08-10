@@ -6,18 +6,18 @@ import { RouterLink, RouterView } from 'vue-router'
   <header>
     <div class=" bg-teal-500">
       <nav >
-        <ul class="text-sm p-3 text-left md:text-xl p-4 flex-cols">
+        <ul class="text-sm max-w-lg p-3 text-left md:text-xl p-4 flex">
         <li>
-        <RouterLink to="/">Home</RouterLink>
+        <RouterLink to="/" class="p-4">Home</RouterLink>
         </li>
         <li>
-        <RouterLink to="/categories" >Categories</RouterLink>
+        <RouterLink to="/categories" class="p-4" >Categories</RouterLink>
         </li>
         <li>
-        <RouterLink to="/contact" >Contact</RouterLink>
+        <RouterLink to="/contact" class="p-4">Contact</RouterLink>
         </li>
         <li>
-        <RouterLink to="/about" >About</RouterLink>
+        <RouterLink to="/about" class="p-4">About</RouterLink>
         </li>
         </ul>
       </nav>

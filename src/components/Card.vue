@@ -5,7 +5,7 @@
 			<h2 class="mb-1 text-xl font-semibold">Nam cu platonem posidonium sanctus debitis te</h2>
 			<p class="text-sm text-black">Eu qualisque aliquando mel, id lorem detraxit nec, ad elit minimum pri. Illum ipsum detracto ne cum. Mundi nemore te ius, vim ad illud atqui apeirian...</p>
 		</div>
-		<div class="flex flex-wrap justify-between">
+		<div class="flex justify-between">
 			<div class="space-x-2">
 				<button aria-label="Share this post" type="button" class="p-2 text-center">
 					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-4 h-4 fill-current text-black">
@@ -17,12 +17,10 @@
 						<path d="M424,496H388.75L256.008,381.19,123.467,496H88V16H424ZM120,48V456.667l135.992-117.8L392,456.5V48Z"></path>
 					</svg>
 				</button>
-                <button aria-label="add to cart" type="button" class="p-2 text-center">
-                <svg>
-                    
-                </svg>    
-                Add</button>
 			</div>
+            <div class="flex space-x-2 item-center p-1">
+                <button aria-label="add-to-cart" type="button" class="text-center bg-teal-600 rounded-md px-3 space-x-1.5 hover:bg-teal-500" >Add</button>
+            </div>
 		</div>
 	</div>
 </template>
