@@ -1,27 +1,79 @@
 <template>
-	<div class="flex flex-col max-w-lg p-6 space-y-6 overflow-hidden rounded-lg  bg-gray-100 shadow-lg">
-		<div>
-			<img src="https://source.unsplash.com/random/100x100/?5" alt="" class="object-cover w-full mb-4 h-60 sm:h-96 dark:bg-gray-500">
-			<h2 class="mb-1 text-xl font-semibold">Nam cu platonem posidonium sanctus debitis te</h2>
-			<p class="text-sm text-black">Eu qualisque aliquando mel, id lorem detraxit nec, ad elit minimum pri. Illum ipsum detracto ne cum. Mundi nemore te ius, vim ad illud atqui apeirian...</p>
-		</div>
-		<div class="flex justify-between">
-			<div class="space-x-2">
-				<button aria-label="Share this post" type="button" class="p-2 text-center">
-					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-4 h-4 fill-current text-black">
-						<path d="M404,344a75.9,75.9,0,0,0-60.208,29.7L179.869,280.664a75.693,75.693,0,0,0,0-49.328L343.792,138.3a75.937,75.937,0,1,0-13.776-28.976L163.3,203.946a76,76,0,1,0,0,104.108l166.717,94.623A75.991,75.991,0,1,0,404,344Zm0-296a44,44,0,1,1-44,44A44.049,44.049,0,0,1,404,48ZM108,300a44,44,0,1,1,44-44A44.049,44.049,0,0,1,108,300ZM404,464a44,44,0,1,1,44-44A44.049,44.049,0,0,1,404,464Z"></path>
-					</svg>
-				</button>
-				<button aria-label="Bookmark this post" type="button" class="p-2">
-					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-4 h-4 fill-current text-black">
-						<path d="M424,496H388.75L256.008,381.19,123.467,496H88V16H424ZM120,48V456.667l135.992-117.8L392,456.5V48Z"></path>
-					</svg>
-				</button>
+
+		<div class="flex  bg-gray-100 shadow-lg rounded-lg p-4">
+			<div class="flex w-48 relative  justify-center"> 
+				<img src="https://source.unsplash.com/random/100x100/?5" alt="" 
+
+				class=" relative items-center object-cover
+					    inset-0 h-full w-full mb-4
+					   dark:bg-gray-500  rounded-md">
 			</div>
-            <div class="flex space-x-2 item-center p-1">
-                <font-awesome-icon icon="fa-solid fa-cart-shopping" />   
-				<button aria-label="add-to-cart" type="button" class="text-center bg-teal-600 rounded-md px-3 space-x-1.5 hover:bg-teal-500" >Add</button>
-            </div>
+			<form action="flex-auto p-6 pl-4">
+				<div class="flex flex-wrap">
+					<h2 class="flex-auto text-xl font-semibold pl-4">Nam cu platonem </h2>
+					<div class="text-sm text-black pl-4 mt-1 font-semibold">
+						10,239  
+					</div>
+					<div class="text-sm w-full text-yellow-400 font-semibold pl-4 ">
+						vailable 
+					</div>
+					
+				</div>
+
+				<div class="flex items-baseline mt-4 mb-6 pb-6 border-b border-slate-200 pl-4">
+					<div class="space-x-2 flex text-sm font-bold">
+						<label>
+						<input class="sr-only peer" name="size" type="radio" value="xs" checked />
+						<div class="w-9 h-9 rounded-full flex items-center justify-center text-violet-400 peer-checked:bg-violet-600 peer-checked:text-white">
+							XS
+						</div>
+						</label>
+						<label>
+						<input class="sr-only peer" name="size" type="radio" value="s" />
+						<div class="w-9 h-9 rounded-full flex items-center justify-center text-violet-400 peer-checked:bg-violet-600 peer-checked:text-white">
+							S
+						</div>
+						</label>
+						<label>
+						<input class="sr-only peer" name="size" type="radio" value="m" />
+						<div class="w-9 h-9 rounded-full flex items-center justify-center text-violet-400 peer-checked:bg-violet-600 peer-checked:text-white">
+							M
+						</div>
+						</label>
+						<label>
+						<input class="sr-only peer" name="size" type="radio" value="l" />
+						<div class="w-9 h-9 rounded-full flex items-center justify-center text-violet-400 peer-checked:bg-violet-600 peer-checked:text-white">
+							L
+						</div>
+						</label>
+						<label>
+						<input class="sr-only peer" name="size" type="radio" value="xl" />
+						<div class="w-9 h-9 rounded-full flex items-center justify-center text-violet-400 peer-checked:bg-violet-600 peer-checked:text-white">
+							XL
+						</div>
+						</label>
+					</div>
+					</div>
+					<div class="flex space-x-4 mb-5 text-sm font-medium">
+					<div class="flex-auto flex space-x-4 pl-4">
+						<button class="h-10 px-6 font-semibold rounded-full bg-violet-600 text-white" type="submit">
+						Buy now
+						</button>
+						<button class="h-10 px-6 font-semibold rounded-full border border-slate-200 text-slate-900 bg-violet-300" type="button">
+						Add to bag
+						</button>
+					</div>
+					<button class="flex-none flex items-center justify-center w-9 h-9 rounded-full text-violet-600 bg-violet-50 hover:text-sky-500 hover:animate-pulse" type="button" aria-label="Like">
+						<svg width="20" height="20" fill="currentColor" aria-hidden="true">
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" />
+						</svg>
+					</button>
+					</div>
+					<p class="text-sm text-slate-500 p-4">
+					Free shipping on all the country.
+					</p>
+
+				</form>
 		</div>
-	</div>
+       
 </template>

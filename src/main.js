@@ -1,6 +1,8 @@
 import './assets/style.css'
 
 // Import icon libraries
+/* import quasarIconSet from 'quasar/icon-set/fontawesome-v6'
+ */
 import '@quasar/extras/roboto-font/roboto-font.css'
 import '@quasar/extras/material-icons/material-icons.css'
 import '@quasar/extras/material-icons-round/material-icons-round.css'
@@ -16,6 +18,9 @@ import { Quasar } from 'quasar'
 
 const app = createApp(App)
 
-app.use(router, Quasar)
-
+app.use(router)
+/* app.use(Quasar,{
+  iconSet:quasarIconSet,  
+})
+ */
 app.mount('#app')
