@@ -1,5 +1,6 @@
 <template>
-	<section class="py-6 dark:bg-gray-800 dark:text-gray-50">
+	<div class="p-5">
+	<section class="py-6 bg-gray-800 dark:text-gray-50 mx-auto p-5 mt-10">
 		<div class="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
 			<div class="py-6 md:py-0 md:px-6">
 				<h1 class="text-4xl font-bold">Get in touch</h1>
@@ -26,7 +27,7 @@
 					</p>
 				</div>
 			</div>
-			<form novalidate="" class="flex flex-col py-6 space-y-6 md:py-0 md:px-6">
+			<form  class="flex flex-col py-6 space-y-6 md:py-0 md:px-6">
 				<label class="block">
 					<span class="mb-1">Full name</span>
 					<input type="text" placeholder="Leroy Jenkins" class="block w-full rounded-md shadow-sm focus:ring focus:ri focus:ri dark:bg-gray-800">
@@ -43,4 +44,5 @@
 			</form>
 		</div>
 	</section>
+</div>
 </template>

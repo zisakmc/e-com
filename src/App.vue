@@ -4,9 +4,14 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <template>
   <header>
-    <div class=" bg-teal-500">
+    <div class=" bg-teal-500 flex">
       <nav >
-        <ul class="text-sm max-w-lg p-3 text-left md:text-xl p-4 flex">
+        <ul class=" flex text-sm max-w-lg text-left p-3 md:text-2xl md:p-4 ">
+          <li>
+            <RouterLink to="/">
+            <img  class="h-8 w-10 " src="/2.png" alt="">
+            </RouterLink>
+          </li>
         <li>
         <RouterLink to="/" class="p-4">Home</RouterLink>
         </li>

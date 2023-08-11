@@ -1,5 +1,5 @@
 <template>
-	<div class="flex flex-col max-w-lg p-6 space-y-6 overflow-hidden rounded-lg  bg-gray-200 shadow-lg">
+	<div class="flex flex-col max-w-lg p-6 space-y-6 overflow-hidden rounded-lg  bg-gray-100 shadow-lg">
 		<div>
 			<img src="https://source.unsplash.com/random/100x100/?5" alt="" class="object-cover w-full mb-4 h-60 sm:h-96 dark:bg-gray-500">
 			<h2 class="mb-1 text-xl font-semibold">Nam cu platonem posidonium sanctus debitis te</h2>
@@ -19,7 +19,8 @@
 				</button>
 			</div>
             <div class="flex space-x-2 item-center p-1">
-                <button aria-label="add-to-cart" type="button" class="text-center bg-teal-600 rounded-md px-3 space-x-1.5 hover:bg-teal-500" >Add</button>
+                <font-awesome-icon icon="fa-solid fa-cart-shopping" />   
+				<button aria-label="add-to-cart" type="button" class="text-center bg-teal-600 rounded-md px-3 space-x-1.5 hover:bg-teal-500" >Add</button>
             </div>
 		</div>
 	</div>
