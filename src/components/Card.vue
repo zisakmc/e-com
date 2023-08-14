@@ -56,7 +56,7 @@
 					</div>
 					<div class="flex space-x-4 mb-5 text-sm font-medium">
 					<div class="flex-auto flex space-x-4 pl-4">
-						<button class="h-10 px-6 font-semibold rounded-full bg-violet-600 text-white" type="submit">
+						<button class="h-10 px-6 font-semibold rounded-full bg-violet-600 text-white hover:bg-violet-500" type="submit">
 						Buy now
 						</button>
 						<button class="h-10 px-6 font-semibold rounded-full border border-slate-200 text-slate-900 bg-violet-300" type="button">
